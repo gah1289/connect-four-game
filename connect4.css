@@ -1,6 +1,7 @@
 /* game board table */
 body {
 	text-align: center;
+	background-image: url(images/chips-bg-2.jpg);
 }
 
 button {
