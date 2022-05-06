@@ -93,7 +93,6 @@ function placeInTable(y, x) {
 	const chip = document.createElement('div');
 	chip.classList.add('piece');
 	chip.classList.add(`player${currPlayer}`);
-	chip.style.top = -50 * (y + 2);
 
 	const taken = document.getElementById(`${y}-${x}`);
 	taken.append(chip);
